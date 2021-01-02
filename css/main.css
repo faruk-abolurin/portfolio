@@ -1,0 +1,260 @@
+/**** BASE STYLES ****/
+body{
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    background: #010101;
+}
+
+/**** GRID ****/
+.full-width{
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+    border-width: 1px;
+    border-color: #b7b7b7;
+}
+
+.half-width{
+    width: 600px;
+    float: left;
+}
+
+.hire{
+    width: 400px;
+    float: left;
+    margin: 0 auto;
+}
+
+.follow{
+    width: 400px;
+    float: left;
+    margin: 0 auto;
+}
+
+.meet{
+    width: 400px;
+    float: right;
+    margin: 0 auto;
+}
+
+/**** HEADER ****/
+header {
+    height: 800px;
+    background: url('../img/background-laptop.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    font-family: 'Teko', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+nav {
+    float: right; 
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 30px;
+    color: #ffffff;
+    padding-left: 45px; 
+    font-family: 'Teko', sans-serif;
+}
+
+header h2 {
+    width: 750px;
+    clear: both;
+    font-family: 'Teko', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #ffffff;
+    font-weight: lighter;
+    padding: 72px 0;
+}
+
+header h2 span {
+    color: #43bdc8;
+}
+
+/**** PORTFOLIO ****/
+
+#portfolio .full-width{
+    padding: 20px 0;
+}
+
+#portfolio h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 30px;;
+    color: #43bdc8;
+}
+
+#portfolio{
+    height: 1400px;
+}
+
+#portfolio img{
+    width: 550px;
+    border-width: 1px;
+    color: #b7b7b7;
+}
+
+
+#portfolio h3{
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 2px;
+    margin: 0 auto;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+
+#portfolio h4{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: lighter;
+    margin-bottom: 0px;
+}
+#portfolio p{
+    font-size: 24px;
+    font-weight: lighter;
+    line-height: 30px;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.project-one .project-two{
+    margin-bottom: 20px;
+}
+
+/****ABOUT****/
+#about{
+    background: #005e80;
+    height: 550px;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+#about h2{
+    text-align: center;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+#about h3{
+    font-size: 20px;
+    color: #ffffff;
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: left;
+}
+
+#about p {
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 25px;
+    margin-top: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    text-align: left;
+}
+
+
+#faruk-image{
+    width: 35%;
+    height: auto;
+    border: 2px;
+    border-style: ridge;
+    border-color: #ffffff;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+/**** CONTACT ****/
+#contact{
+    height: 300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Teko', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+    color: #43bdc8;
+}
+
+#contact .hire h3{
+    font-size: 24px;
+}
+
+#contact .hire ul {
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-left: 25px;
+    margin-left: 1px;
+}
+
+#contact .hire ul li {
+    list-style: none;
+    text-transform: lowercase;
+    padding: 10px 0;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+#contact .hire ul li a{
+    color: #ffffff;
+    padding: 2px;
+}
+
+#contact .follow h3{
+    font-size: 24px;
+}
+
+#contact .follow ul li{
+    display: inline;
+    list-style: none;
+    padding: 25px 15px;
+}
+
+#contact .meet h3{
+    font-size: 24px;
+}
+
+#contact .meet ul{
+    padding-right: 10px;
+    margin-right: 1px;
+    padding-left: 20px;
+    margin-left: 1px;
+}
+
+#contact .meet ul li{
+    list-style: none;
+    padding: 10px 0;
+    line-height: 10px;
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Teko', sans-serif;
+    margin: 0 auto;
+}
